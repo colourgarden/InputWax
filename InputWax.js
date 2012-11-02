@@ -49,7 +49,7 @@
     };
 
     $(document).ready(function() {
-        $('[ ' + $.fn.inputWax.options.selector + ']').inputWax();
+        $( $.fn.inputWax.options.selector ).inputWax();
     });
 
 })( jQuery, window, document );
