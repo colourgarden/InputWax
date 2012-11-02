@@ -43,7 +43,7 @@
 
     $.fn.inputWax.options = {
 
-        selector: 'data-inputwax',
+        selector: '[data-inputwax]',
         waxer: '.waxer',
         waxerActiveClass: 'active'
     };
