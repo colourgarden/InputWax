@@ -12,6 +12,7 @@
 
         function doWax(el, waxer){
 
+            $( $.fn.inputWax.options.selector ).removeAttr('checked');
             el.attr('checked', 'checked');
             $( $.fn.inputWax.options.waxer ).removeClass('active');
             waxer.addClass($.fn.inputWax.options.waxerActiveClass);
